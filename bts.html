@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Chaina</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- importation de la library sur le projet html -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+  </head>
+  <body>
+    <header class="Navigation">
+      <!-- le I est une importation d'une library d'icones le data-lucide="le nom de l'icones" -->
+      <!-- https://lucide.dev/icons/ -->
+      <a href="/" class="navigation-icones">
+        <i data-lucide="house"></i>
+        <p>Accueil</p>
+      </a>
+
+      <a href="/" class="navigation-icones">
+        <i data-lucide="user-round"></i>
+        <p>A propos</p>
+      </a>
+      <a href="/bts.html" class="navigation-icones">
+        <i data-lucide="backpack"></i>
+        <p>BTS SIO</p>
+      </a>
+      <a href="/" class="navigation-icones">
+        <i data-lucide="list-check"></i>
+        <p>Mission E5</p>
+      </a>
+      <a href="/" class="navigation-icones">
+        <i data-lucide="folder"></i>
+        <p>Projets E6</p>
+      </a>
+      <a href="/" class="navigation-icones">
+        <i data-lucide="eye"></i>
+        <p>Veille</p>
+      </a>
+      <a href="/" class="navigation-icones">
+        <i data-lucide="contact"></i>
+        <p>Contact</p>
+      </a>
+    </header>
+    <main>
+      <section class="section-bts">
+        <div class="bts-sio">
+        <h3>BTS SIO</h3>
+        <p class="description-bts">
+          Le BTS Services Informatiques aux Organisations est un diplôme
+          national
+          de l'enseignement supérieur français. Il forme des informaticiens
+          qui
+          seront capables de gérer des parcs informatiques, d'administrer des
+          réseaux, de développer des applications, de concevoir des bases de
+          données, de sécuriser des systèmes d'information, de mettre en place
+          des
+          solutions de virtualisation et de cloud computing.
+        </p>
+        </div>
+        <div class="option-bts">
+          <div class="options">
+            <h3>Option SLAM</h3>
+            <p class="option-description">
+              Solutions Logicielles et Applications Métiers. Cette spécialité forme des développeurs d'applications informatiques.</p>
+            <h5>DÉBOUCHÉS</h5>
+           <!-- une liste  -->
+            <ul class="option-liste">
+              <li>Développeur d'applications</li>
+              <li>Analyste programmeur</li>
+              <li>Concepteur développeur</li>
+              <li>Intégrateur web</li>
+              <li>Administrateur de base de données</li>
+            </ul>
+              
+            </p>
+          </div>
+          
+          <div class="separation"></div>
+          
+          <div class="options">
+            <h3>Option SISR</h3>
+            <p class="option-description"></p>
+            Solutions d'Infrastructure, Systèmes et Réseaux.<br>
+            Cette spécialité forme des administrateurs de réseaux et de systèmes.
+            <h5>DÉBOUCHÉS</h5>
+           <!-- une liste -->
+            <ul class="option-liste">
+              <li>Adinistrateur systèmes et réseaux</li>
+              <li>Analyste programmeur</li>
+              <li>Technicien réseaux</li>
+              <li>Technicien systèmes</li>
+              <li>Technicien de maintenance</li>
+            </ul>
+<!-- animation rotation span -->
+            <span class="loader"></span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script>
+      lucide.createIcons();
+    </script>
+  </body>
+</html>
