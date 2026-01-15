@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Titre de l’onglet du navigateur -->
+    <title>Contact - Mon Portfolio</title>
+
+    <!-- Permet au site d’être lisible sur téléphone -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- On relie le fichier CSS externe -->
+    <link rel="stylesheet" href="/styles/contact.css" />
+    <link rel="stylesheet" href="/styles/style.css" />
+  </head>
+  <body>
+    <!-- En-tête de la page -->
+    <header class="Navigation">
+      <!-- le I est une importation d'une library d'icones le data-lucide="le nom de l'icones" -->
+      <!-- https://lucide.dev/icons/ -->
+      <a href="/" class="navigation-icones">
+        <i data-lucide="house"></i>
+        <p>Accueil</p>
+      </a>
+
+      <a href="/" class="navigation-icones">
+        <i data-lucide="user-round"></i>
+        <p>A propos</p>
+      </a>
+      <a href="/pages/bts.html" class="navigation-icones">
+        <i data-lucide="backpack"></i>
+        <p>BTS SIO</p>
+      </a>
+      <a href="/" class="navigation-icones">
+        <i data-lucide="list-check"></i>
+        <p>Mission E5</p>
+      </a>
+      <a href="/" class="navigation-icones">
+        <i data-lucide="folder"></i>
+        <p>Projets E6</p>
+      </a>
+      <a href="/" class="navigation-icones">
+        <i data-lucide="eye"></i>
+        <p>Veille</p>
+      </a>
+      <a href="/pages/contact.html" class="navigation-icones">
+        <i data-lucide="contact"></i>
+        <p>Contact</p>
+      </a>
+    </header>
+
+    <!-- Contenu principal -->
+    <main>
+      <!-- Section avec tes infos personnelles -->
+
+
+      <!-- Section du formulaire -->
+      <section>
+        <h2>Formulaire de contact</h2>
+
+        <!-- Le formulaire envoie les données vers traitement_contact.php -->
+        <form class="général" action="traitement_contact.php" method="post">
+          <!-- Champ : nom -->
+          <div class="form-group">
+            <label for="nom">Nom </label>
+            <!-- required = obligatoire -->
+            <input
+              type="text"
+              id="nom"
+              name="nom"
+              placeholder="Votre nom"
+              required
+            />
+          </div>
+
+          <!-- Champ : email -->
+          <div class="form-group">
+            <label for="email">Adresse e-mail</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="votre.email@exemple.com"
+              required
+            />
+          </div>
+
+          </div>
+
+          <!-- Champ : message -->
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Écrivez votre message ici..."
+              required
+            ></textarea>
+          </div>
+
+          <!-- Bouton d’envoi -->
+          <button type="submit">Envoyer le message</button>
+        </form>
+      </section>
+    </main>
+
+    <!-- Pied de page -->
+    <footer></footer>
+  </body>
+</html>
