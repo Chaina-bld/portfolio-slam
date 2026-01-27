@@ -1,0 +1,41 @@
+/* Centrer le contenu au milieu de la page */
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  position: relative;
+  z-index: 10;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  width: 100%;
+  padding-top: 100px;
+}
+
+.about-content {
+  text-align: center;
+  padding: 40px;
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow:
+    8px 0 12px rgba(0, 0, 0, 0.08),
+    -8px 0 12px rgba(0, 0, 0, 0.08);
+}
+
+main p {
+  font-size: 1.3em;
+  line-height: 1.8;
+  margin: 20px 0;
+  color: #333;
+  font-weight: 500;
+}
+
+
