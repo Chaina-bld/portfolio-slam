@@ -1,0 +1,45 @@
+.main-card {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+    padding: 0 20px;
+}
+   
+
+.card-ecole {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+     gap:10px;
+     padding: 9px;
+    border-radius: 18px;
+}
+
+.card-stage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    gap:10px;
+    padding: 9px;
+    border-radius: 18px;
+    
+}
+
+
+.boutton-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 12px;
+  background-color: pink;
+  text-decoration: none;
+  border-radius: 8px;
+  color: white;
+}
+
+
+.boutton-info:hover {
+  background-color: #ff66a3;
+}

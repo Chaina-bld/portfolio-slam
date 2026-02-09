@@ -4,13 +4,13 @@
     <meta charset="UTF-8" />
     <!-- Titre de l’onglet du navigateur -->
     <title>Contact - Mon Portfolio</title>
-
     <!-- Permet au site d’être lisible sur téléphone -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <!-- On relie le fichier CSS externe -->
     <link rel="stylesheet" href="/styles/contact.css" />
     <link rel="stylesheet" href="/styles/style.css" />
+    <!-- importation de la library sur le projet html -->
+    <script src="https://unpkg.com/lucide@latest"></script>
   </head>
   <body>
     <!-- En-tête de la page -->
@@ -26,19 +26,25 @@
         <i data-lucide="user-round"></i>
         <p>A propos</p>
       </a>
+      
+         <a href="/pages/ecole.html" class="navigation-icones">
+        <i data-lucide="graduation-cap"></i>
+        <p>Ecole</p>
+      </a>
+
       <a href="/pages/bts.html" class="navigation-icones">
         <i data-lucide="backpack"></i>
         <p>BTS SIO</p>
       </a>
-      <a href="/" class="navigation-icones">
+      <a href="/pages/mission_E5.html" class="navigation-icones">
         <i data-lucide="list-check"></i>
         <p>Mission E5</p>
       </a>
-      <a href="/" class="navigation-icones">
+      <a href="/pages/projets_E6.html" class="navigation-icones">
         <i data-lucide="folder"></i>
         <p>Projets E6</p>
       </a>
-      <a href="/" class="navigation-icones">
+      <a href="/pages/veille.html" class="navigation-icones">
         <i data-lucide="eye"></i>
         <p>Veille</p>
       </a>
@@ -51,6 +57,8 @@
     <!-- Contenu principal -->
     <main>
       <!-- Section avec tes infos personnelles -->
+  
+
 
 
       <!-- Section du formulaire -->
@@ -58,7 +66,7 @@
         <h2>Formulaire de contact</h2>
 
         <!-- Le formulaire envoie les données vers traitement_contact.php -->
-        <form class="général" action="traitement_contact.php" method="post">
+        <form  class="général" action="https://formspree.io/f/mzdgeeje" method="POST">
           <!-- Champ : nom -->
           <div class="form-group">
             <label for="nom">Nom </label>
@@ -105,5 +113,8 @@
 
     <!-- Pied de page -->
     <footer></footer>
+    <script>
+      lucide.createIcons();
+    </script>
   </body>
 </html>
