@@ -1,0 +1,17 @@
+.grid-works {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-gap: 20px;
+}
+
+.img-works {
+  width: 600px;
+}
+
+.banner-card h2 {
+  font-size: 56px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+}

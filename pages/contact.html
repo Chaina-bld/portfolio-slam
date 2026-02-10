@@ -1,118 +1,109 @@
-<!DOCTYPE html>
-<html lang="fr">
+<!doctype html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <!-- Titre de l’onglet du navigateur -->
-    <title>Contact - Mon Portfolio</title>
-    <!-- Permet au site d’être lisible sur téléphone -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- On relie le fichier CSS externe -->
+    <title>Chaina BELIDA</title>
+    <link rel="stylesheet" href="/styles/styles.css" />
     <link rel="stylesheet" href="/styles/contact.css" />
-    <link rel="stylesheet" href="/styles/style.css" />
-    <!-- importation de la library sur le projet html -->
-    <script src="https://unpkg.com/lucide@latest"></script>
   </head>
   <body>
-    <!-- En-tête de la page -->
-    <header class="Navigation">
-      <!-- le I est une importation d'une library d'icones le data-lucide="le nom de l'icones" -->
-      <!-- https://lucide.dev/icons/ -->
-      <a href="/" class="navigation-icones">
-        <i data-lucide="house"></i>
-        <p>Accueil</p>
-      </a>
-
-      <a href="/pages/a_propos.html" class="navigation-icones">
-        <i data-lucide="user-round"></i>
-        <p>A propos</p>
-      </a>
-      
-         <a href="/pages/ecole.html" class="navigation-icones">
-        <i data-lucide="graduation-cap"></i>
-        <p>Ecole</p>
-      </a>
-
-      <a href="/pages/bts.html" class="navigation-icones">
-        <i data-lucide="backpack"></i>
-        <p>BTS SIO</p>
-      </a>
-      <a href="/pages/mission_E5.html" class="navigation-icones">
-        <i data-lucide="list-check"></i>
-        <p>Mission E5</p>
-      </a>
-      <a href="/pages/projets_E6.html" class="navigation-icones">
-        <i data-lucide="folder"></i>
-        <p>Projets E6</p>
-      </a>
-      <a href="/pages/veille.html" class="navigation-icones">
-        <i data-lucide="eye"></i>
-        <p>Veille</p>
-      </a>
-      <a href="/pages/contact.html" class="navigation-icones">
-        <i data-lucide="contact"></i>
-        <p>Contact</p>
-      </a>
+    <header class="header-pages">
+      <h1 class="header-title">Chaina BELIDA</h1>
+      <nav class="nav">
+        <a href="/" class="nav-link">
+          <i data-lucide="house" width="18"></i>
+          <p>Accueil</p>
+        </a>
+        <a href="/pages/about.html" class="nav-link">
+          <i data-lucide="user-round" width="18"></i>
+          <p>A propos</p>
+        </a>
+        <a href="/pages/works.html" class="nav-link">
+          <i data-lucide="graduation-cap" width="18"></i>
+          <p>Ecole & Entreprise</p>
+        </a>
+        <a href="/pages/bts.html" class="nav-link">
+          <i data-lucide="backpack" width="18"></i>
+          <p>BTS SIO</p>
+        </a>
+        <a href="/pages/e5.html" class="nav-link">
+          <i data-lucide="list-check" width="18"></i>
+          <p>Mission E5</p>
+        </a>
+        <a href="/pages/e6.html" class="nav-link">
+          <i data-lucide="folder" width="18"></i>
+          <p>Projets E6</p>
+        </a>
+        <a href="/pages/veille.html" class="nav-link">
+          <i data-lucide="eye" width="18"></i>
+          <p>Veille</p>
+        </a>
+        <a href="/pages/contact.html" class="nav-link active">
+          <i data-lucide="contact" width="18"></i>
+          <p>Contact</p>
+        </a>
+      </nav>
     </header>
 
-    <!-- Contenu principal -->
-    <main>
-      <!-- Section avec tes infos personnelles -->
-  
-
-
-
-      <!-- Section du formulaire -->
-      <section>
-        <h2>Formulaire de contact</h2>
-
-        <!-- Le formulaire envoie les données vers traitement_contact.php -->
-        <form  class="général" action="https://formspree.io/f/mzdgeeje" method="POST">
-          <!-- Champ : nom -->
-          <div class="form-group">
-            <label for="nom">Nom </label>
-            <!-- required = obligatoire -->
-            <input
-              type="text"
-              id="nom"
-              name="nom"
-              placeholder="Votre nom"
-              required
-            />
-          </div>
-
-          <!-- Champ : email -->
-          <div class="form-group">
-            <label for="email">Adresse e-mail</label>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              placeholder="votre.email@exemple.com"
-              required
-            />
-          </div>
-
-          </div>
-
-          <!-- Champ : message -->
-          <div class="form-group">
-            <label for="message">Message</label>
-            <textarea
-              id="message"
-              name="message"
-              placeholder="Écrivez votre message ici..."
-              required
-            ></textarea>
-          </div>
-
-          <!-- Bouton d’envoi -->
-          <button type="submit">Envoyer le message</button>
-        </form>
+    <main class="screen-main">
+      <section class="contact">
+        <div class="contact-card">
+          <h2>Formulaire de contact</h2>
+          <form
+            class="form-contact"
+            action="https://formspree.io/f/mzdgeeje"
+            method="POST"
+          >
+            <div class="form-grid-group">
+              <div class="form-group">
+                <label for="name">Nom</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Votre Nom"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="prenom">Prénom</label>
+                <input
+                  type="text"
+                  id="prenom"
+                  name="prenom"
+                  placeholder="Votre Prénom"
+                  required
+                />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Votre Email"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                placeholder="Votre message ..."
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="button-card">Envoyer</button>
+          </form>
+        </div>
       </section>
     </main>
 
-    <!-- Pied de page -->
-    <footer></footer>
+    <script src="https://unpkg.com/lucide@latest"></script>
     <script>
       lucide.createIcons();
     </script>
