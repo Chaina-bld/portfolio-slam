@@ -1,63 +1,68 @@
 <!doctype html>
-<html lang="fr">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio Chaina</title>
-    <link rel="stylesheet" href="/styles/style.css" />
-    <!-- importation de la library sur le projet html -->
-    <script src="https://unpkg.com/lucide@latest"></script>
+    <title>Chaina BELIDA</title>
+    <link rel="stylesheet" href="/styles/styles.css" />
+    <link rel="stylesheet" href="/styles/index.css" />
   </head>
   <body>
-    <header class="Navigation">
-      <!-- le I est une importation d'une library d'icones le data-lucide="le nom de l'icones" -->
-      <!-- https://lucide.dev/icons/ -->
-      <a href="/" class="navigation-icones">
-        <i data-lucide="house"></i>
-        <p>Accueil</p>
-      </a>
-
-      <a href="/pages/a_propos.html" class="navigation-icones">
-        <i data-lucide="user-round"></i>
-        <p>A propos</p>
-      </a>
-
-      <a href="/pages/ecole.html" class="navigation-icones">
-        <i data-lucide="graduation-cap"></i>
-        <p>Ecole</p>
-      </a>
-      
-      <a href="/pages/bts.html" class="navigation-icones">
-        <i data-lucide="backpack"></i>
-        <p>BTS SIO</p>
-      </a>
-      <a href="/pages/mission_E5.html" class="navigation-icones">
-        <i data-lucide="list-check"></i>
-        <p>Mission E5</p>
-      </a>
-      <a href="/pages/projets_E6.html" class="navigation-icones">
-        <i data-lucide="folder"></i>
-        <p>Projets E6</p>
-      </a>
-      <a href="/pages/veille.html" class="navigation-icones">
-        <i data-lucide="eye"></i>
-        <p>Veille</p>
-      </a>
-      <a href="/pages/contact.html" class="navigation-icones">
-        <i data-lucide="contact"></i>
-        <p>Contact</p>
-      </a>
+    <header class="header-pages">
+      <h1 class="header-title">Chaina BELIDA</h1>
+      <nav class="nav">
+        <a href="/" class="nav-link active">
+          <i data-lucide="house" width="18"></i>
+          <p>Accueil</p>
+        </a>
+        <a href="/pages/about.html" class="nav-link">
+          <i data-lucide="user-round" width="18"></i>
+          <p>A propos</p>
+        </a>
+        <a href="/pages/works.html" class="nav-link">
+          <i data-lucide="graduation-cap" width="18"></i>
+          <p>Ecole & Entreprise</p>
+        </a>
+        <a href="/pages/bts.html" class="nav-link">
+          <i data-lucide="backpack" width="18"></i>
+          <p>BTS SIO</p>
+        </a>
+        <a href="/pages/e5.html" class="nav-link">
+          <i data-lucide="list-check" width="18"></i>
+          <p>Mission E5</p>
+        </a>
+        <a href="/pages/e6.html" class="nav-link">
+          <i data-lucide="folder" width="18"></i>
+          <p>Projets E6</p>
+        </a>
+        <a href="/pages/veille.html" class="nav-link">
+          <i data-lucide="eye" width="18"></i>
+          <p>Veille</p>
+        </a>
+        <a href="/pages/contact.html" class="nav-link">
+          <i data-lucide="contact" width="18"></i>
+          <p>Contact</p>
+        </a>
+      </nav>
     </header>
-    <main>
-      <h1><span class="emoji_main">👋</span>Chaina BELIDA</h1>
-      <p>Je suis actuellement étudiante en BTS SIO option SLAM</p>
-      <div class="photo-profil">
-    <img src="/images/chaina photos.jpg" alt="Photo de profil">
-</div>
 
+    <main class="screen-main">
+      <section class="accueil">
+        <img
+          src="/public/images/icon/chaina.jpg"
+          alt="Image de Chaina BELIDA"
+          class="img-me"
+        />
+        <h1>CHAINA BELIDA <span class="moov">👋</span></h1>
+        <p>
+          Je suis actuellement étudiante en
+          <a href="/pages/bts.html">BTS SIO OPTION SLAM.</a> chez
+          <a href="/pages/works.html">Ynov Campus</a>
+        </p>
+      </section>
     </main>
-    <footer></footer>
 
+    <script src="https://unpkg.com/lucide@latest"></script>
     <script>
       lucide.createIcons();
     </script>

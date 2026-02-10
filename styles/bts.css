@@ -1,0 +1,49 @@
+.grid-bts {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-gap: 20px;
+}
+
+.bts-card {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 30px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.sio {
+  grid-column: 1 / 3;
+}
+
+.bts-card h2 {
+  font-size: 26px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.bts-card p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.bts-déboucher {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.bts-déboucher h4 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.bts-déboucher ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.bts-déboucher ul li {
+  font-size: 16px;
+}
