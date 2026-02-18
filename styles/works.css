@@ -6,7 +6,7 @@
 }
 
 .img-works {
-  width: 600px;
+  width: 70%;
 }
 
 .banner-card h2 {
@@ -14,4 +14,15 @@
   font-weight: 700;
   text-transform: uppercase;
   color: white;
+}
+
+.banner-card {
+  position: relative;
+}
+
+.test {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  border-radius: 6px;
 }
