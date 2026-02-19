@@ -33,9 +33,7 @@
   }
 }
 @media (max-width: 724px) {
-  /* .contact-card {
-    padding: 20px; 
-} */
+  
 
   .form-grid-group {
     grid-template-columns: 1fr;
