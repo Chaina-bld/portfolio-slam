@@ -10,14 +10,19 @@ body {
   color: #333;
 }
 
-.bts{
-    padding: 20px;
+.bts {
+  padding: 20px;
 }
-
 
 .grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(200px, 1fr));
   gap: 20px;
   padding: 20px;
+}
+
+nav {
+  background-color: #fff;
+  color: #333;
+  padding: 10px;
 }
