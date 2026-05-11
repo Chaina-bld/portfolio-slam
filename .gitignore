@@ -1,0 +1,30 @@
+# Fichiers temporaires
+*.tmp
+*.bak
+*.log
+*.swp
+*~
+
+# Dossiers système
+.DS_Store
+Thumbs.db
+node_modules/
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# PHP
+php/rate_limit.log
+php/messages.log
+
+# Cache
+.cache/
+dist/
+build/
+
+# Environnement
+.env
+.env.local
