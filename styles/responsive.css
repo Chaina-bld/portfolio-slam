@@ -19,7 +19,7 @@
   }
 }
 
-@media (max-width: 1466px) {
+@media (max-width: 1166px) {
   .grid-cards {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     grid-gap: 10px;
@@ -33,8 +33,6 @@
   }
 }
 @media (max-width: 724px) {
-  
-
   .form-grid-group {
     grid-template-columns: 1fr;
   }

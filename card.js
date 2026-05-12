@@ -49,7 +49,7 @@ const projets = [
       " Installation d'Apache2 sur une machine virtuelle. Configuration du serveur web pour héberger des sites web et des applications.",
     Button: {
       text: "Documentation",
-      lien: "../public/documents/apache 2 doc (pas fini).pdf",
+      lien: "../public/documents/Apache2.pdf",
     },
   },
   {
