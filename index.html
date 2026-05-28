@@ -6,6 +6,12 @@
     <title>Chaina BELIDA</title>
     <link rel="stylesheet" href="./styles/styles.css" />
     <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="stylesheet" href="./styles/about.css" />
+    <link rel="stylesheet" href="./styles/works.css" />
+    <link rel="stylesheet" href="./styles/bts.css" />
+    <link rel="stylesheet" href="./styles/e5.css" />
+    <link rel="stylesheet" href="./styles/contact.css" />
+    <link rel="stylesheet" href="./styles/responsive.css" />
   </head>
   <body>
     <header class="header-pages">
@@ -18,19 +24,15 @@
       </button>
 
       <nav class="nav" id="nav-menu">
-        <a href="./" class="nav-link active">
+        <a href="#accueil" class="nav-link active">
           <i data-lucide="house" width="18"></i>
           <p>Accueil</p>
-        </a>
-        <a href="./pages/about.html" class="nav-link">
-          <i data-lucide="user-round" width="18"></i>
-          <p>A propos</p>
         </a>
         <a href="./pages/works.html" class="nav-link">
           <i data-lucide="graduation-cap" width="18"></i>
           <p>Ecole & Entreprise</p>
         </a>
-        <a href="./pages/bts.html" class="nav-link">
+        <a href="./pages/bts.html" class="nav-link active">
           <i data-lucide="backpack" width="18"></i>
           <p>BTS SIO</p>
         </a>
@@ -46,26 +48,174 @@
           <i data-lucide="eye" width="18"></i>
           <p>Veille</p>
         </a>
-        <a href="./pages/contact.html" class="nav-link">
+        <a href="#contact" class="nav-link">
           <i data-lucide="contact" width="18"></i>
           <p>Contact</p>
         </a>
       </nav>
     </header>
 
-    <main class="screen-main">
-      <section class="accueil">
+    <main class="my-main">
+      <section id="accueil" class="section accueil">
+        <!-- <h2 class="section-title">Accueil</h2> -->
         <img
           src="./public/images/icon/chaina.jpg"
           alt="Image de Chaina BELIDA"
           class="img-me"
         />
         <h1>CHAINA BELIDA <span class="moov">👋</span></h1>
+        <p class="status">💻 Développeuse Junior - BTS SIO SLAM</p>
+        <p class="loc">📍 Nanterre, France</p>
         <p>
           Je suis actuellement étudiante en
-          <a href="./pages/bts.html">BTS SIO OPTION SLAM.</a> chez
-          <a href="./pages/works.html">Ynov Campus</a>
+          <a href="#bts">BTS SIO OPTION SLAM.</a> chez
+          <a href="#works">Ynov Campus</a>
         </p>
+        <div class="presentation">
+          <h2>✨ Qui suis-je ?</h2>
+          <p>
+            Passionnée par le développement web et les nouvelles technologies,
+            je suis actuellement étudiante en
+            <strong>BTS SIO option SLAM</strong> (Solutions Logicielles et
+            Applications Métiers) à <strong>Ynov Campus Paris</strong>.
+          </p>
+          <p>
+            Curieuse et rigoureuse, j'aime relever des défis techniques et
+            apprendre de nouvelles compétences. Mon objectif est de devenir une
+            développeuse polyvalente capable de mener des projets de la
+            conception à la livraison.
+          </p>
+          <div class="btn-group-cv">
+            <a
+              class="button-card"
+              href="./public/documents/cv-chaina-belida.pdf"
+              target="_blank"
+              >📄 Télécharger mon CV</a
+            >
+            <a class="button-card" href="./public/documents/baccalauréat.pdf" target="_blank"
+                  >Voir le diplôme</a
+                >
+             
+          </div>
+        </div>
+      </section>
+
+      <!-- Page À PROPOS - Version Développeur Junior -->
+      <section id="a-propos" ">
+        <div >
+          <h2>🛠️ Compétences techniques</h2>
+          <div>
+            <h3>Front-end</h3>
+            <span class="skill-badge"
+              ><img
+                class="skill-logo"
+                src="./public/images/skills/html.svg"
+                alt="HTML logo"
+              />HTML5</span
+            >
+            <span class="skill-badge"
+              ><img
+                class="skill-logo"
+                src="./public/images/skills/css.svg"
+                alt="CSS logo"
+              />CSS3</span
+            >
+            <span class="skill-badge"
+              ><img
+                class="skill-logo"
+                src="./public/images/skills/javascript.svg"
+                alt="JavaScript logo"
+              />JavaScript (ES6+)</span
+            >
+            <h3>Back-end</h3>
+            <span class="skill-badge"
+              ><img
+                class="skill-logo"
+                src="./public/images/skills/php.svg"
+                alt="PHP logo"
+              />PHP</span
+            >
+            <span class="skill-badge"
+              ><img
+                class="skill-logo"
+                src="./public/images/skills/symfony.svg"
+                alt="Symfony logo"
+              />Symfony</span
+            >
+            <h3>Base de données</h3>
+            <span class="skill-badge"
+              ><img
+                class="skill-logo"
+                src="./public/images/skills/mysql.svg"
+                alt="MySQL logo"
+              />MySQL / MariaDB</span
+            >
+            <h3>Outils & Méthodes</h3>
+            <span class="skill-badge"
+              ><img
+                class="skill-logo"
+                src="./public/images/skills/github.svg"
+                alt="GitHub logo"
+              />Git / GitHub</span
+            >
+            <span class="skill-badge"
+              ><img
+                class="skill-logo"
+                src="./public/images/skills/figma.svg"
+                alt="Figma logo"
+              />Figma</span
+            >
+            <span class="skill-badge"
+              ><img
+                class="skill-logo"
+                src="./public/images/skills/vscode.svg"
+                alt="VS Code logo"
+              />VS Code</span
+            >
+            <span class="skill-badge"
+              ><img
+                class="skill-logo"
+                src="./public/images/skills/debian.svg"
+                alt="Debian logo"
+              />Debian</span
+            >
+          </div>
+        </div>
+
+       
+
+      
+
+       
+          <div class="langues">
+            <h2>🌐 Langues</h2>
+            <ul>
+              <li><strong>Français</strong> - Langue maternelle</li>
+              <li>
+                <strong>Anglais</strong> - Niveau B2 (TOEIC en préparation)
+              </li>
+              <li><strong>Espagnol</strong> - Niveau A2</li>
+            </ul>
+          </div>
+       
+      </section>
+
+      <section id="contact" class="section contact">
+        <h2 class="section-title">Contactez-moi</h2>
+          <div class="contact-links">
+            <a class="button-card" href="mailto:chaina.belida@gmail.com">
+              <i data-lucide="mail" width="18"></i>
+              Gmail
+            </a>
+            <a class="button-card" href="http://www.linkedin.com/in/chaina-belida" target="_blank" rel="noreferrer">
+              <i data-lucide="linkedin" width="18"></i>
+              LinkedIn
+            </a>
+            <a class="button-card" href="https://github.com/chaina-belida" target="_blank" rel="noreferrer">
+              <i data-lucide="github" width="18"></i>
+              GitHub
+            </a>
+          </div>
       </section>
     </main>
 
@@ -73,6 +223,7 @@
     <script>
       lucide.createIcons();
     </script>
+    <script src="./card.js"></script>
     <script src="./script.js"></script>
   </body>
 </html>

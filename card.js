@@ -41,6 +41,21 @@ const projets = [
       lien: "../index.html",
     },
   },
+
+{
+    logoIs: false,
+    logo: "../public/images/e5/Mobaxterm-photo.webp",
+    titre: "Connexion SSH avec Mobaxterm",
+    description:
+      "   Connexion à une machine virtuelle via SSH en utilisant Mobaxterm, permettant une gestion à distance efficace.",
+    Button: {
+      text: "Documentation",
+      lien: "../public/documents/Connexion à un serveur distant en SSH avec MobaXterm.pdf",
+    },
+  },
+
+
+
   {
     logoIs: true,
     logo: "../public/images/e5/apache.svg",
@@ -49,7 +64,7 @@ const projets = [
       " Installation d'Apache2 sur une machine virtuelle. Configuration du serveur web pour héberger des sites web et des applications.",
     Button: {
       text: "Documentation",
-      lien: "../public/documents/apache 2 doc (pas fini).pdf",
+      lien: "../public/documents/Apache2.pdf",
     },
   },
   {

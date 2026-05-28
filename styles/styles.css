@@ -9,21 +9,22 @@
 }
 
 body {
-  background-color: rgb(238, 201, 207);
+  background-color: rgb(240, 233, 235);
   color: #202020;
+  padding: 75px;
 }
 
 /* CSS DU HEADER AVEC LA NAVBAR */
 .header-pages {
-  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  background-color: rgb(238, 201, 207);
+  background-color: rgb(240, 233, 235);
   position: fixed;
   top: 0;
-  left: 0;
+  left: 75px;
+  right: 75px;
   z-index: 1000;
 }
 
