@@ -41,6 +41,21 @@ const projets = [
       lien: "../index.html",
     },
   },
+
+{
+    logoIs: false,
+    logo: "../public/images/e5/Mobaxterm-photo.webp",
+    titre: "Connexion SSH avec Mobaxterm",
+    description:
+      "   Connexion à une machine virtuelle via SSH en utilisant Mobaxterm, permettant une gestion à distance efficace.",
+    Button: {
+      text: "Documentation",
+      lien: "../public/documents/Connexion à un serveur distant en SSH avec MobaXterm.pdf",
+    },
+  },
+
+
+
   {
     logoIs: true,
     logo: "../public/images/e5/apache.svg",
