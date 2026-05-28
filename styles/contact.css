@@ -12,7 +12,7 @@
   flex-direction: column;
   gap: 20px;
   padding: 40px;
-  background-color: white;
+  background-color: var(--surface);
   border-radius: 20px;
   width: 35%;
 }
@@ -52,7 +52,7 @@
 .form-group textarea {
   width: 100%;
   padding: 10px;
-  border: 1px solid #202020;
+  border: 1px solid var(--text-primary);
   border-radius: 5px;
   resize: vertical;
 }

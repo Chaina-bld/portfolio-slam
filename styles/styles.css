@@ -1,5 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
+:root {
+  --bg-main: #fdf8f0;
+  --bg-secondary: #f5ebe0;
+  --surface: #ffffff;
+  --text-primary: #3d2b1f;
+  --text-secondary: #7a5c4a;
+  --accent-primary: #c68b6e;
+  --accent-secondary: #a67c63;
+  --border-color: #e8dccc;
+  --hover-color: #8b5e3c;
+  --shadow-color: rgba(61, 43, 31, 0.1);
+}
+
 /* CSS DE LA PAGE DE BASE */
 * {
   margin: 0;
@@ -9,8 +22,8 @@
 }
 
 body {
-  background-color: rgb(240, 233, 235);
-  color: #202020;
+  background-color: var(--bg-main);
+  color: var(--text-primary);
   padding: 75px;
 }
 
@@ -20,7 +33,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  background-color: rgb(240, 233, 235);
+  background-color: var(--bg-main);
   position: fixed;
   top: 0;
   left: 75px;
@@ -45,24 +58,24 @@ body {
   gap: 5px;
   text-decoration: none;
   align-items: center;
-  background-color: #ffffff52;
-  border: 1px solid #ffffff;
+  background-color: rgba(255, 255, 255, 0.32);
+  border: 1px solid var(--surface);
   border-radius: 50px;
   padding: 6px 12px;
-  color: #202020;
+  color: var(--text-primary);
   font-size: 14px;
 }
 
 .nav-link:hover {
-  background-color: #ffffff90;
-  border: 1px solid #ffffff;
-  color: #202020;
+  background-color: rgba(255, 255, 255, 0.56);
+  border: 1px solid var(--surface);
+  color: var(--text-primary);
 }
 
 .active {
-  background-color: #ffffff;
-  border: 1px solid #ffffff;
-  color: #202020;
+  background-color: var(--surface);
+  border: 1px solid var(--surface);
+  color: var(--text-primary);
 }
 
 /* CSS DE PAGE */
@@ -88,7 +101,7 @@ body {
 /* CSS DE MA CARD */
 .my-card {
   position: relative;
-  background-color: white;
+  background-color: var(--surface);
   border: 1px solid transparent;
   border-radius: 20px;
   padding: 10px;
@@ -101,7 +114,7 @@ body {
 .banner-card {
   width: 100%;
   aspect-ratio: 16/8;
-  background-color: #eec9cf;
+  background-color: var(--accent-primary);
   border-radius: 10px;
   position: relative;
   display: flex;
@@ -131,7 +144,7 @@ body {
 
 .desc-card {
   font-size: 14px;
-  color: #202020;
+  color: var(--text-primary);
 }
 
 .link-group-card {
@@ -149,19 +162,19 @@ body {
   justify-content: center;
   gap: 5px;
   text-decoration: none;
-  background-color: #fdb8c3;
+  background-color: var(--accent-primary);
   border: 2px solid transparent;
   border-radius: 10px;
   padding: 8px 12px;
-  color: #ffffff;
+  color: var(--surface);
   font-size: 16px;
   font-weight: 600;
 }
 
 .button-card:hover {
-  background-color: #fdb8c3b2;
-  border: 2px solid #fdb8c3cc;
-  color: #ffffff;
+  background-color: var(--hover-color);
+  border: 2px solid var(--accent-secondary);
+  color: var(--surface);
 }
 
 /* responsive */
@@ -180,7 +193,7 @@ body {
   display: block;
   width: 25px;
   height: 3px;
-  background-color: #202020;
+  background-color: var(--text-primary);
   border-radius: 3px;
   transition: 0.3s;
 }
@@ -197,10 +210,10 @@ body {
     top: 100%;
     left: 0;
     width: 100%;
-    background-color: rgb(238, 201, 207);
+    background-color: var(--bg-secondary);
     padding: 20px;
     gap: 15px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 10px var(--shadow-color);
   }
 
   .nav.active {
