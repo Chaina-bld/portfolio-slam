@@ -1,0 +1,59 @@
+@media (max-width: 600px) {
+  .grid-works {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  .img-works {
+    width: 50%;
+  }
+
+  .banner-card h2 {
+    font-size: 40px;
+  }
+
+  .grid-works {
+    padding: 10px;
+  }
+  .grid-bts {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 1166px) {
+  .grid-cards {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-gap: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .grid-cards {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    grid-gap: 10px;
+  }
+}
+@media (max-width: 724px) {
+  .form-grid-group {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 1040px) {
+  .contact-card {
+    width: 100%;
+  }
+  .grid-works {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    grid-gap: 10px;
+  }
+}
+
+@media (max-width: 1382px) {
+  .grid-bts {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    grid-gap: 10px;
+  }
+  .sio {
+    grid-column: 1;
+  }
+}

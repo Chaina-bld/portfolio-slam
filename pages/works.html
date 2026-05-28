@@ -4,42 +4,46 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chaina BELIDA</title>
-    <link rel="stylesheet" href="/styles/styles.css" />
-    <link rel="stylesheet" href="/styles/works.css" />
+    <link rel="stylesheet" href="../styles/styles.css" />
+    <link rel="stylesheet" href="../styles/works.css" />
+    <link rel="stylesheet" href="../styles/responsive.css" />
   </head>
   <body>
     <header class="header-pages">
       <h1 class="header-title">Chaina BELIDA</h1>
-      <nav class="nav">
-        <a href="/" class="nav-link">
+
+      <button class="burger-menu" id="burger-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav" id="nav-menu">
+        <a href="../index.html" class="nav-link">
           <i data-lucide="house" width="18"></i>
           <p>Accueil</p>
         </a>
-        <a href="/pages/about.html" class="nav-link">
-          <i data-lucide="user-round" width="18"></i>
-          <p>A propos</p>
-        </a>
-        <a href="/pages/works.html" class="nav-link active">
+        <a href="../pages/works.html" class="nav-link active">
           <i data-lucide="graduation-cap" width="18"></i>
           <p>Ecole & Entreprise</p>
         </a>
-        <a href="/pages/bts.html" class="nav-link">
+        <a href="../pages/bts.html" class="nav-link">
           <i data-lucide="backpack" width="18"></i>
           <p>BTS SIO</p>
         </a>
-        <a href="/pages/e5.html" class="nav-link">
+        <a href="../pages/e5.html" class="nav-link">
           <i data-lucide="list-check" width="18"></i>
           <p>Mission E5</p>
         </a>
-        <a href="/pages/e6.html" class="nav-link">
+        <a href="../pages/e6.html" class="nav-link">
           <i data-lucide="folder" width="18"></i>
           <p>Projets E6</p>
         </a>
-        <a href="/pages/veille.html" class="nav-link">
+        <a href="../pages/veille.html" class="nav-link">
           <i data-lucide="eye" width="18"></i>
           <p>Veille</p>
         </a>
-        <a href="/pages/contact.html" class="nav-link">
+        <a href="../pages/contact.html" class="nav-link">
           <i data-lucide="contact" width="18"></i>
           <p>Contact</p>
         </a>
@@ -50,7 +54,11 @@
       <section class="grid-works">
         <div class="my-card">
           <div class="banner-card">
-            <img class="img-works" src="/public/images/icon/ynov.svg" alt="" />
+            <img
+              class="img-works"
+              src="../public/images/icon/ynov.svg"
+              alt=""
+            />
           </div>
           <div class="infos-card">
             <h2 class="title-card">Ynov Campus Paris</h2>
@@ -64,7 +72,12 @@
             </p>
           </div>
           <div class="link-group-card">
-            <a class="button-card" href="">Cliquer ici pour en savoir plus</a>
+            <a class="button-card" href="">En savoir plus</a>
+            <a
+              class="button-card"
+              href="https://maps.app.goo.gl/SZt596vPBWR2j63n6"
+              >Voir sur la carte</a
+            >
           </div>
         </div>
 
@@ -83,7 +96,12 @@
             </p>
           </div>
           <div class="link-group-card">
-            <a class="button-card" href="">Cliquer ici pour me contacter</a>
+            <a class="button-card" href="/pages/contact.html">Me contacter</a>
+            <a
+              class="button-card"
+              href="http://www.linkedin.com/in/chaina-belida"
+              >Voir mon LinkedIn</a
+            >
           </div>
         </div>
       </section>
@@ -93,5 +111,6 @@
     <script>
       lucide.createIcons();
     </script>
+    <script src="../script.js"></script>
   </body>
 </html>
