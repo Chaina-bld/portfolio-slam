@@ -14,7 +14,7 @@
   font-weight: 700;
   text-transform: uppercase;
   text-align: center;
-  color: white;
+  color: var(--surface);
 }
 
 .banner-card {
