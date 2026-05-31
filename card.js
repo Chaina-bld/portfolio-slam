@@ -27,7 +27,18 @@ const projets = [
       "Installation et configuration de Kali Linux et DVWA sur une machine virtuelle.",
     Button: {
       text: "Documentation",
-      lien: "../public/documents/documentation kali linux et dvwa.pdf",
+      lien: "../public/documents/Guide_d'installation_de_Kali_Linux_+_DVWA.pdf",
+    },
+  },
+  {
+    logoIs: false,
+    logo: "../public/images/e5/dvwa.png",
+    titre: "Attaque par force brute sur DVWA",
+    description:
+      "Réalisation d'une attaque par force brute sur DVWA, démontrant les vulnérabilités de sécurité et les mesures de protection.",
+    Button: {
+      text: "Documentation",
+      lien: "../public/documents/Attaque_par_force_brute_sur_DVWA.pdf",
     },
   },
   {
@@ -42,7 +53,7 @@ const projets = [
     },
   },
 
-{
+  {
     logoIs: false,
     logo: "../public/images/e5/Mobaxterm-photo.webp",
     titre: "Connexion SSH avec Mobaxterm",
@@ -50,11 +61,9 @@ const projets = [
       "   Connexion à une machine virtuelle via SSH en utilisant Mobaxterm, permettant une gestion à distance efficace.",
     Button: {
       text: "Documentation",
-      lien: "../public/documents/Connexion à un serveur distant en SSH avec MobaXterm.pdf",
+      lien: "../public/documents/Connexion_SSH_avec_MobaXterm.pdf",
     },
   },
-
-
 
   {
     logoIs: true,
@@ -64,28 +73,18 @@ const projets = [
       " Installation d'Apache2 sur une machine virtuelle. Configuration du serveur web pour héberger des sites web et des applications.",
     Button: {
       text: "Documentation",
-      lien: "../public/documents/Apache2.pdf",
+      lien: "../public/documents/Apache_2.pdf"
     },
   },
-  {
-    logoIs: false,
-    logo: "../public/images/e5/MobaXterm-photo.webp",
-    titre: "Mobaxterm SSH",
-    description:
-      "Installation et configuration de Mobaxterm pour se connecter à une machine virtuelle via SSH.",
-    Button: {
-      text: "Documentation",
-      lien: "../public/documents/SSH documentation.pdf",
-    },
-  },
+
   {
     logoIs: false,
     logo: "../public/images/e5/windows-server-2025.png",
     titre: "Windows Server",
     description: "Installation de Windows Server sur une machine virtuelle.",
     Button: {
-      text: "En cours",
-      lien: "#",
+      text: "Documentation",
+      lien: "../public/documents/Installation_et_Configuration_-_Windows_Server_2025.pdf",
     },
   },
   {
@@ -94,8 +93,28 @@ const projets = [
     titre: "Symfony",
     description: "Installation et configuration de Symfony.",
     Button: {
-      text: "En cours",
-      lien: "#",
+      text: "Documentation",
+      lien: "../public/documents/SF_installation.pdf",
+    },
+  },
+  {
+    logoIs: false,
+    logo: "../public/images/e5/ocs_glpi.jpg",
+    titre: "OCS GLPI",
+    description: "Synchronisationde OCS GLPI.",
+    Button: {
+      text: "Documentation",
+      lien: "../public/documents/Synchronisation_OCSGLPI.pdf",
+    },
+  },
+   {
+    logoIs: false,
+    logo: "../public/images/e5/ocs_glpi.jpg",
+    titre: "Gestion de tickets avec OCS GLPI",
+    description: "La gestion de tickets avec GLPI permet de centraliser les demandes d’assistance. Relié à OCS",
+    Button: {
+      text: "Documentation",
+      lien: "../public/documents/Synchronisation_OCSGLPI.pdf",
     },
   },
 ];
